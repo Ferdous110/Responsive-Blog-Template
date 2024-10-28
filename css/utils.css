@@ -19,7 +19,9 @@
 .max-width-2{
   max-width: 100vw;
 }
-
+.center{
+  text-align: center;
+}
 .m-auto{
   margin: auto;
 }
