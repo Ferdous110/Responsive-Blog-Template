@@ -68,6 +68,7 @@ height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
 }
 .content-right {
   display: flex;
@@ -82,8 +83,9 @@ height: inherit;
 }
 .home-articles{
  
-  /* background-color: rgb(221, 152, 152); */
-  padding-top: 12px;
+  background-color: rgb(233, 221, 221, 0.5);
+  padding: 18px;
+  margin-top: 23px;
 }
 .home-article{
 display: flex;
@@ -95,6 +97,10 @@ width: 300px;
 .home-article-content{
   align-self: center;
   padding: 25px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: var(--main-bg-color);
 }
 .footer {
   height: 50px;

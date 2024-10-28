@@ -50,3 +50,15 @@
   margin: 0 13px;
   font-family: var(--font1);
 }
+.form-box input, textarea{
+  width: 50vw;
+  
+  padding: 0px 6px;
+  margin: 7px 0;
+  font-size: 15px;
+  font-family: var(--font1);
+  border: 2px solid rgb(142, 114, 62);
+  border-radius: 10px;
+ resize: none;
+}
+
